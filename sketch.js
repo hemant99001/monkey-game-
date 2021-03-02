@@ -64,9 +64,7 @@ function draw() {
     score=score+1
       }
   
-   if(monkey.isTouching(obstacleGroup)){
-    velocity.x= 0;
-  }
+   
   
   
  drawSprites()
